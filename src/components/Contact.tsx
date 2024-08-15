@@ -5,14 +5,17 @@ function Contact() {
   return (
     <div className="mt-12 grid grid-cols-3">
       <div className="col-span-2 flex flex-col px-24 pt-48">
-        <div className="relative text-[40px] leading-[48px]">
-          Reach out to me, Let's build something{" "}
+        <div className="w-fit text-[40px] leading-[48px]">
+          <div className="relative">
+            Reach out to me, Let's build
+            <div className="absolute -top-20 -right-16">
+              <img src={Hearts} className="" />
+            </div>
+          </div>
+          something{" "}
           <span className="font-Bounce">
             extraordinary together<span className="text-yellow-450">.</span>
           </span>
-          <div className="absolute -top-20 right-16">
-            <img src={Hearts} className="" />
-          </div>
         </div>
         <div className="mt-16 flex gap-8">
           <a href="mailto:prajnapatil0906@gmail.com" target="_blank">
