@@ -5,11 +5,11 @@ type ProjectProps = {
   imageSrc: string;
 };
 
-enum Shape {
-  "square",
-  "circle",
-  "polygon",
-}
+// enum Shape {
+//   "square",
+//   "circle",
+//   "polygon",
+// }
 
 function Project({ name, description, projectSrc, imageSrc }: ProjectProps) {
   return (
