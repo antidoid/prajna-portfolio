@@ -18,56 +18,53 @@ import img17 from "../assets/doodles/17.png";
 
 function Doodles() {
   return (
-    <div>
-      <p className="font-Bounce text-xl pt-12 pb-4">How it started......</p>
-      <div className="grid grid-cols-2 gap-8">
-        <div className="col-span-1">
-          <div className="grid grid-cols-2 grid-rows-3 gap-8">
+    <div className="flex flex-col px-12">
+      <p className="font-Bounce font-medium text-xl pt-12 pb-4">
+        How it started......
+      </p>
+      <div className="h-[650px] grid grid-cols-2 grid-rows-1 gap-8">
+        <div className="col-span-1 row-span-1">
+          <div className="h-full grid grid-cols-2 grid-rows-3 gap-8">
             <div className="col-span-1 row-span-2">
-              <img src={img1} className="size-full" />
+              <img src={img1} className="size-full object-fill" />
             </div>
             <div className="col-start-2 row-span-1">
-              <img src={img3} className="size-full" />
+              <img src={img3} className="size-full object-fill" />
             </div>
             <div className="col-start-1">
-              <img src={img2} className="size-full" />
+              <img src={img2} className="size-full object-fill" />
             </div>
             <div className="col-start-2 row-start-2 row-span-2">
-              <img src={img4} className="size-full" />
+              <img src={img4} className="size-full object-fill" />
             </div>
           </div>
         </div>
-        <div className="col-span-1">
-          <img src={img5} className="size-full" />
+        <div className="col-span-1 row-span-1">
+          <img src={img5} className="size-full object-fill" />
         </div>
       </div>
-      <div className="grid grid-cols-2 grid-rows-2 gap-8 mt-8">
-        <img src={img6} alt="Image 1" className="size-full" />
-        <img src={img7} className="size-full" />
-        <img src={img8} className="size-full" />
-        <img src={img9} className="size-full" />
+      <div className="h-[1600px] grid grid-cols-2 grid-rows-2 gap-8 mt-8">
+        <img src={img6} className="size-full object-fill" />
+        <img src={img7} className="size-full object-fill" />
+        <img src={img8} className="size-full object-fill" />
+        <img src={img9} className="size-full object-fill" />
       </div>
-      <div className="mt-8 grid grid-cols-3 gap-8">
-        <img src={img10} className="size-full" />
-        <img src={img11} className="size-full" />
-        <img src={img12} className="size-full" />
+      <div className="h-[360px] mt-8 grid grid-cols-3 grid-rows-1 gap-8">
+        <img src={img10} className="row-span-1 size-full object-center" />
+        <img src={img11} className="row-span-1 size-full object-center" />
+        <img src={img12} className="row-span-1 size-full object-center" />
       </div>
-      <div className="grid grid-cols-4 grid-rows-2 gap-8 mt-8">
-        <img src={img13} className="size-full row-span-2" />
-        <img src={img14} className="size-full row-span-2" />
-        <img src={img15} className="size-full" />
-        <img src={img16} className="size-full row-span-2" />
-        <img src={img17} className="size-full row-span-2" />
+      <div className="h-[460px] grid grid-cols-4 grid-rows-2 gap-8 mt-8">
+        <img src={img13} className="size-full row-span-2 object-fill" />
+        <img src={img14} className="size-full row-span-2 object-fill" />
+        <div className="">
+          <img src={img15} className="size-full object-fill mb-8" />
+          <img src={img16} className="size-full object-fill" />
+        </div>
+        <img src={img17} className="size-full row-span-2 object-fill" />
       </div>
     </div>
   );
 }
 
 export default Doodles;
-
-// <img src={img2} className="row-start-2" />
-// <img src={img3} className="col-start-2 row-end-1" />
-// <img
-//   src={img4}
-//   className="col-start-2 col-end-2 row-start-1 row-end-1"
-// />
