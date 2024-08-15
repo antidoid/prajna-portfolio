@@ -16,7 +16,11 @@ function Hero() {
         <div className="ml-8 flex flex-col items-center">
           <div className="p-[1px] bg-gradient-to-r from-blue-450 via-pink-450 to-yellow-450 rounded-xl">
             <button className="bg-black px-12 py-3 rounded-xl">
-              <a className="font-extralight text-[20px] leading-6">
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1ZU0O4O-dy2NIsTRr8IocIi9i5YDa7E1n/view?usp=drivesdk"
+                className="font-extralight text-[20px] leading-6"
+              >
                 Download Me.
               </a>
             </button>
