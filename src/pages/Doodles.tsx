@@ -63,6 +63,10 @@ function Doodles() {
         </div>
         <img src={img17} className="size-full row-span-2 object-fill" />
       </div>
+      <div className="mt-4 flex justify-between font-Bounce text-[20px] leading-7">
+        <span>from pen-paper to procreate</span>
+        <span>How it is going on......</span>
+      </div>
     </div>
   );
 }
