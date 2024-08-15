@@ -6,8 +6,7 @@ import Projects from "../components/Projects";
 
 function Home() {
   return (
-    <div className="bg-[#0A0B0A] text-white min-h-screen px-32">
-      <Header />
+    <div>
       <Hero />
       <Projects />
       <About />

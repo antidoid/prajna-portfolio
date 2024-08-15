@@ -1,6 +1,9 @@
 import AboutPP from "../assets/about.png";
+import { useNavigate } from "react-router-dom";
 
 function About() {
+  const navigate = useNavigate();
+
   return (
     <div className="font-Inter">
       <div className="text-center mt-16 font-normal">
@@ -18,9 +21,15 @@ function About() {
           competitions, often taking the prize home but when I entered 11th
           grade, the focus shifted to studies, later in 12th I shifted back to
           home due to pandemic where online classes couldn't hold my attention
-          but <span className="font-normal underline">doodling</span> on paper
-          could. I turned to Instagram. The app's design with its new Reels
-          feature, sparked a deeper interest. Further, I stumbled upon{" "}
+          but{" "}
+          <span
+            className="font-normal underline cursor-pointer"
+            onClick={() => navigate("doodles")}
+          >
+            doodling
+          </span>{" "}
+          on paper could. I turned to Instagram. The app's design with its new
+          Reels feature, sparked a deeper interest. Further, I stumbled upon{" "}
           <span className="text-yellow-450">UI/UX</span> and{" "}
           <span className="text-pink-450">product design</span>. After joining
           the university, I dove into Figma. Eager to learn, I participated in
