@@ -62,7 +62,7 @@ function Contact() {
               </g>
             </svg>
           </a>
-          <a href="figma.com/@prajnarpatil" target="_blank">
+          <a href="https://figma.com/@prajnarpatil" target="_blank">
             <svg
               className="size-14 rounded-sm cursor-pointer"
               viewBox="0 0 16 16"
@@ -99,7 +99,7 @@ function Contact() {
               </g>
             </svg>
           </a>
-          <a href="www.linkedin.com/in/prajnarpatil" target="_blank">
+          <a href="https://www.linkedin.com/in/prajnarpatil" target="_blank">
             <svg
               className="size-16 rounded-sm cursor-pointer"
               viewBox="0 0 48 48"
