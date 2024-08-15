@@ -10,7 +10,7 @@ function Projects() {
         <p className="font-Inter font-medium text-[40px] leading-10">
           My Work<span className="text-pink-450">.</span>
         </p>
-        <div className="h-[1px] grow bg-white self-end mb-5 mr-14 md:ml-10"></div>
+        <div className="h-[1px] grow bg-white self-end mb-5 md:ml-10"></div>
       </div>
       <Project
         name="COOKBOOK"

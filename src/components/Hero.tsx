@@ -30,8 +30,8 @@ function Hero() {
           </span>
         </div>
       </div>
-      <div className="p-12 w-full h-full">
-        <img src={PP} />
+      <div className="p-12 pr-0">
+        <img src={PP} className="size-full" />
       </div>
     </main>
   );
