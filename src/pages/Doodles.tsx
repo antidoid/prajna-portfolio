@@ -21,9 +21,13 @@ import Back from "../assets/left.png";
 import { scrollToTop } from "../utils/scroll.ts";
 
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 function Doodles() {
   const navigate = useNavigate();
+  useEffect(() => {
+    scrollToTop();
+  }, []);
   return (
     <div className="flex flex-col px-12">
       <p className="font-Bounce font-medium text-xl pt-12 pb-4">
