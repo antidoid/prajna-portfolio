@@ -6,8 +6,8 @@ import { scrollToTop } from "../utils/scroll.ts";
 function Contact() {
   return (
     <div>
-      <div className="mt-12 grid grid-cols-3">
-        <div className="col-span-2 flex flex-col pt-36">
+      <div className="mt-12 flex">
+        <div className="flex flex-col pt-24">
           <div className="w-fit text-[40px] leading-[48px]">
             <div className="relative">
               Reach out to me, Let's build
@@ -168,11 +168,11 @@ function Contact() {
             </a>
           </div>
         </div>
-        <div className="flex pt-4 items-center justify-center mr-24">
-          <img src={GirlOnChair} className="h-[500px] w-[360px]" />
+        <div className="flex-1 pl-12 flex items-center justify-center">
+          <img src={GirlOnChair} className="h-[600px] w-96" />
         </div>
       </div>
-      <div className="flex justify-end py-8">
+      <div className="flex justify-end pb-8">
         <img
           src={Up}
           className="size-10 cursor-pointer hover:scale-110 duration-200"
