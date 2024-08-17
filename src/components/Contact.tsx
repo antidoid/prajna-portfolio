@@ -1,4 +1,4 @@
-import GirlOnChair from "../assets/contact.png";
+import GirlOnChair from "../assets/contact.jpeg";
 import Hearts from "../assets/hearts.png";
 import Up from "../assets/up.png";
 import { scrollToTop } from "../utils/scroll.ts";

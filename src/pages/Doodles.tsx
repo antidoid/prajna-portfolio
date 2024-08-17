@@ -78,7 +78,7 @@ function Doodles() {
         <span>from pen-paper to procreate</span>
         <span>How it is going on......</span>
       </div>
-      <div className="my-4 flex justify-between">
+      <div className="my-4 mb-8 flex justify-between">
         <img
           src={Back}
           className="size-10 cursor-pointer hover:scale-110 duration-200"

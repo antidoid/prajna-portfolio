@@ -12,8 +12,8 @@ function About() {
         </h2>
       </div>
       <div className="flex justify-center">
-        <div className="px-[3px] py-[1px] flex items-center bg-gradient-to-r from-blue-450 via-pink-450 to-yellow-450 rounded-xl">
-          <img className="size-[440px] rounded-xl" src={AboutPP} />
+        <div className="px-1 flex items-center bg-gradient-to-r from-blue-450 via-pink-450 to-yellow-450 rounded-3xl">
+          <img className="size-[440px] rounded-3xl" src={AboutPP} />
         </div>
         <p className="w-2/5 ml-8 text-2xl leading-7 font-extralight">
           My passion for design started young when I was in kindergarten and

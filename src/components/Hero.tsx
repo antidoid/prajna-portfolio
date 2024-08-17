@@ -31,7 +31,9 @@ function Hero() {
         </div>
       </div>
       <div className="p-12 pr-0">
-        <img src={PP} className="size-full" />
+        <div className="px-[1px] py-[1px] flex items-center bg-gradient-to-r from-blue-450 via-pink-450 to-yellow-450 rounded-3xl">
+          <img src={PP} className="size-full rounded-3xl" />
+        </div>
       </div>
     </main>
   );
