@@ -16,7 +16,14 @@ import img15 from "../assets/doodles/15.png";
 import img16 from "../assets/doodles/16.png";
 import img17 from "../assets/doodles/17.png";
 
+import Up from "../assets/up.png";
+import Back from "../assets/left.png";
+import { scrollToTop } from "../utils/scroll.ts";
+
+import { useNavigate } from "react-router-dom";
+
 function Doodles() {
+  const navigate = useNavigate();
   return (
     <div className="flex flex-col px-12">
       <p className="font-Bounce font-medium text-xl pt-12 pb-4">
@@ -66,6 +73,18 @@ function Doodles() {
       <div className="mt-4 flex justify-between font-Bounce text-[20px] leading-7">
         <span>from pen-paper to procreate</span>
         <span>How it is going on......</span>
+      </div>
+      <div className="mt-4 flex justify-between">
+        <img
+          src={Back}
+          className="size-10 cursor-pointer hover:scale-110 duration-200"
+          onClick={() => navigate("..")}
+        />
+        <img
+          src={Up}
+          className="size-10 cursor-pointer hover:scale-110 duration-200"
+          onClick={scrollToTop}
+        />
       </div>
     </div>
   );
