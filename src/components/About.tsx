@@ -11,11 +11,11 @@ function About() {
           Know more about <span className="font-Bounce font-normal">Me</span>
         </h2>
       </div>
-      <div className="flex justify-center">
-        <div className="px-1 flex items-center bg-gradient-to-r from-blue-450 via-pink-450 to-yellow-450 rounded-3xl">
-          <img className="size-[440px] rounded-3xl" src={AboutPP} />
+      <div className="flex">
+        <div className="p-[1px] flex items-center bg-gradient-to-r from-blue-450 via-pink-450 to-yellow-450 rounded-3xl">
+          <img className="size-[500px] rounded-3xl" src={AboutPP} />
         </div>
-        <p className="w-2/5 ml-8 text-2xl leading-7 font-extralight">
+        <p className="flex-1 ml-8 text-2xl leading-10 font-extralight">
           My passion for design started young when I was in kindergarten and
           participated in a drawing competition. I thrived in art
           competitions, often taking the prize home but when I entered 11th
