@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div>
       <div className="mt-12 flex">
-        <div className="flex flex-col pt-24">
+        <div className="flex flex-col pt-32">
           <div className="w-fit text-[40px] leading-[48px]">
             <div className="relative">
               Reach out to me, Let's build
