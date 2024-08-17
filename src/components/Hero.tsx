@@ -11,7 +11,9 @@ function Hero() {
               Prajna R Patil<span className="text-blue-450">.</span>
             </span>
           </h1>
-          <h2 className="text-4xl ml-2">I’m a designer.</h2>
+          <h2 className="text-4xl ml-2">
+            I’m a designer<span className="text-yellow-450">.</span>
+          </h2>
         </div>
         <div className="ml-8 flex flex-col items-center">
           <div className="p-[1px] bg-gradient-to-r from-blue-450 via-pink-450 to-yellow-450 rounded-xl">
