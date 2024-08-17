@@ -1,4 +1,4 @@
-import GirlOnChair from "../assets/contact.jpeg";
+import GirlOnChair from "../assets/contact.png";
 import Hearts from "../assets/hearts.png";
 import Up from "../assets/up.png";
 import { scrollToTop } from "../utils/scroll.ts";
@@ -20,7 +20,7 @@ function Contact() {
               extraordinary together<span className="text-yellow-450">.</span>
             </span>
           </div>
-          <div className="mt-16 flex gap-8">
+          <div className="mt-16 flex gap-6">
             <a href="mailto:prajnapatil0906@gmail.com" target="_blank">
               <svg
                 className="size-16 rounded-sm cursor-pointer"
@@ -107,7 +107,7 @@ function Contact() {
             </a>
             <a href="https://www.linkedin.com/in/prajnarpatil" target="_blank">
               <svg
-                className="size-16 rounded-sm cursor-pointer"
+                className="size-16 mx-1 rounded-sm cursor-pointer"
                 viewBox="0 0 48 48"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -138,7 +138,7 @@ function Contact() {
             </a>
             <a href="https://wa.me/+919902273424" target="_blank">
               <svg
-                className="size-14 rounded-full cursor-pointer"
+                className="size-14 mx-1 rounded-full cursor-pointer"
                 xmlns="http://www.w3.org/2000/svg"
                 aria-label="WhatsApp"
                 role="img"
@@ -168,8 +168,8 @@ function Contact() {
             </a>
           </div>
         </div>
-        <div className="flex items-center justify-center">
-          <img src={GirlOnChair} className="h-[600px] w-96" />
+        <div className="flex pt-14 items-center justify-center">
+          <img src={GirlOnChair} className="h-[500px] w-80" />
         </div>
       </div>
       <div className="flex justify-end pb-8">
