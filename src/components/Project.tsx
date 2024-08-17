@@ -41,8 +41,19 @@ function Project({
     }
   })();
 
+  const gradientClass = (() => {
+    switch (shape) {
+      case "circle":
+        return "bg-gradient-to-r from-pink-450 via-blue-450 to-yellow-450";
+      case "triangle":
+        return "bg-gradient-to-b from-yellow-450 via-blue-450 to-pink-450";
+      case "square":
+        return "bg-gradient-to-r from-yellow-450 via-blue-450 to-pink-450";
+    }
+  })();
+
   return (
-    <div className="p-[1px] bg-gradient-to-r from-blue-450 via-pink-450 to-yellow-450 rounded-3xl">
+    <div className={`p-[1px] ${gradientClass} rounded-3xl`}>
       <div className="bg-black grid grid-cols-2 rounded-3xl py-10 px-10">
         <div
           className={`flex pt-9 ${direction == "reverse" ? "order-2" : "order-1"}`}
