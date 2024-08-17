@@ -21,7 +21,7 @@ function Hero() {
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/1ZU0O4O-dy2NIsTRr8IocIi9i5YDa7E1n/view?usp=drivesdk"
-                className="font-extralight text-[20px] leading-6"
+                className="font-extralight text-[20px] leading-6 hover:tracking-widest duration-200"
               >
                 Download Me.
               </a>

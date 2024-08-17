@@ -66,7 +66,10 @@ function Project({
               <h2 className="font-normal text-4xl">{name}</h2>
             </div>
             <p className="font-extralight text-2xl w-4/5">{description}</p>
-            <a href={projectSrc} className="font-Bounce text-2xl">
+            <a
+              href={projectSrc}
+              className="font-Bounce text-2xl opacity-70 hover:opacity-100 duration-200"
+            >
               View Project
               <span className="bg-gradient-to-r from-blue-450 via-pink-450 to-yellow-450 text-transparent bg-clip-text">
                 {" - - - >"}
