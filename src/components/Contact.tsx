@@ -165,8 +165,8 @@ function Contact() {
           </a>
         </div>
       </div>
-      <div>
-        <img src={GirlOnChair} />
+      <div className="flex items-center justify-center">
+        <img src={GirlOnChair} className="h-[600px] w-96" />
       </div>
     </div>
   );
