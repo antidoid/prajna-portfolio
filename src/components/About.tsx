@@ -23,7 +23,7 @@ function About() {
           home due to pandemic where online classes couldn't hold my attention
           but{" "}
           <span
-            className="font-normal text-yellow-450 underline cursor-pointer opacity-70 hover:opacity-100 duration-200"
+            className="font-normal italic text-yellow-450 underline cursor-pointer opacity-70 hover:opacity-100 duration-200"
             onClick={() => navigate("doodles")}
           >
             doodling
