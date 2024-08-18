@@ -5,7 +5,7 @@ import { scrollToTop } from "../utils/scroll.ts";
 
 function Contact() {
   return (
-    <div>
+    <div className="max-w-screen-xl mx-auto">
       <div className="mt-12 flex">
         <div className="flex flex-col pt-32">
           <div className="w-fit text-[40px] leading-[48px]">

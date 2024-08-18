@@ -5,15 +5,15 @@ function About() {
   const navigate = useNavigate();
 
   return (
-    <div className="font-Inter">
+    <div className="font-Inter max-w-screen-xl mx-auto">
       <div className="text-center mt-16 font-normal">
         <h2 className="text-4xl mb-16">
           Know more about <span className="font-Bounce font-normal">Me</span>
         </h2>
       </div>
       <div className="flex">
-        <div className="p-[1px] flex items-center bg-gradient-to-r from-blue-450 via-pink-450 to-yellow-450 rounded-3xl">
-          <img className="size-[500px] rounded-3xl" src={AboutPP} />
+        <div className="size-[402px] flex justify-center items-center bg-gradient-to-r from-blue-450 via-pink-450 to-yellow-450 rounded-3xl">
+          <img className="size-[400px] rounded-3xl" src={AboutPP} />
         </div>
         <p className="flex-1 ml-8 text-2xl leading-10 font-extralight">
           My passion for design started young when I was in kindergarten and
@@ -23,14 +23,14 @@ function About() {
           home due to pandemic where online classes couldn't hold my attention
           but{" "}
           <span
-            className="font-normal underline cursor-pointer"
+            className="font-normal text-yellow-450 underline cursor-pointer opacity-70 hover:opacity-100 duration-200"
             onClick={() => navigate("doodles")}
           >
             doodling
           </span>{" "}
           on paper could. I turned to Instagram. The app's design with its new
           Reels feature, sparked a deeper interest. Further, I stumbled upon{" "}
-          <span className="text-yellow-450">UI/UX</span> and{" "}
+          <span className="text-blue-450">UI/UX</span> and{" "}
           <span className="text-pink-450">product design</span>. After joining
           the university, I dove into Figma. Eager to learn, I participated in
           design contests and joined clubs. My design skills flourished, leading

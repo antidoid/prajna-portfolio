@@ -5,7 +5,7 @@ import StockStreet from "../assets/stockstreet.png";
 
 function Projects() {
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-10 max-w-screen-xl mx-auto">
       <div className="relative flex justify-end items-center">
         <p className="font-Inter font-medium text-[40px] leading-10">
           My Work<span className="text-pink-450">.</span>
