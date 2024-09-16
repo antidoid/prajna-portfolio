@@ -1,7 +1,7 @@
 import Project from "./Project";
 import CookbooksImg from "../assets/cookbooks.png";
 import RH from "../assets/rh.png";
-import StockStreet from "../assets/stockstreet.png";
+import IRCTCImg from "../assets/irctc.png";
 
 function Projects() {
   return (
@@ -15,7 +15,7 @@ function Projects() {
       <Project
         name="COOKBOOK"
         description="Make mealtime magical again! Share your creations, connect and meet like-minded cooks, and turn every dinner into a delightful social experience."
-        projectSrc="https://www.figma.com/design/SXZuA3NfHpXpyulrhqGqdO/cookbook-2.0-(Community)?node-id=0-1&t=H5i7tVlUdkwRWCg6-1"
+        projectSrc="https://www.behance.net/gallery/206576151/Cookbook"
         imageSrc={CookbooksImg}
         direction="normal"
         shape="circle"
@@ -23,16 +23,16 @@ function Projects() {
       <Project
         name="REVA HACK </> 2023"
         description="A user-friendly and engaging website and mobile app for RevaHack</> 2023, the largest tech event at Reva University. The goal was to create a digital experience that would attract potential participants, sponsors, and judges, while also providing them with all the necessary information about the event."
-        projectSrc="https://www.figma.com/design/8PXsz1XaM0k0eCfY8V2iKO/revahack-ui?node-id=0-1&t=rpNWmuCqRjgbsvmu-1"
+        projectSrc="https://www.behance.net/gallery/206677121/HACKATHON-UI"
         imageSrc={RH}
         direction="reverse"
         shape="triangle"
       />
       <Project
-        name="STOCKSTREET"
-        description="A user-friendly website design to check stocks and learn about stock market."
-        projectSrc="https://www.figma.com/design/NCY1Oti3jTJDMLMjwJnD9W/stockstreet-design?node-id=51-1732&t=6bEeerA2t5VHGBCy-1"
-        imageSrc={StockStreet}
+        name="IRCTC RE-DESIGN"
+        description="Simple redesign of the IRCTC mobile application, as it is important to be honest. The current configuration, which includes a multitude of screens, outdated aesthetics, and an overwhelming number of CAPTCHA prompts during login, is akin to navigating through a complex maze."
+        projectSrc="https://www.behance.net/gallery/206683485/IRCTC-RE-DESIGN"
+        imageSrc={IRCTCImg}
         direction="normal"
         shape="square"
       />
