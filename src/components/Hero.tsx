@@ -27,9 +27,6 @@ function Hero() {
               </a>
             </button>
           </div>
-          <span className="font-extralight italic mt-1 text-gray-400">
-            Yes, that’s my resume.
-          </span>
         </div>
       </div>
       <div className="p-12 pr-0">
